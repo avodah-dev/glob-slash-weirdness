@@ -8,6 +8,10 @@
   },
   "dependencies": {
     "express": "^4.21.1",
-    "glob": "^11.0.0"
+    "glob": "^10.4.5"
+  },
+  "engines": {
+    "node": ">=16.x.x",
+    "pnpm": ">=8"
   }
 }
