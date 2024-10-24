@@ -1,6 +1,7 @@
 const express = require("express");
 const { glob } = require("glob");
 const app = express();
+
 const port = process.env.PORT || 3000;
 
 app.get("/", (req, res) => {
